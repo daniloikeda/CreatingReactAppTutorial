@@ -36,10 +36,10 @@
   Your React app will be created with Javascript files
 #### Code in TypeScript
   Open your terminal and then write one of the following commands 
-* npx create-react-app *project-name* –-template typescript
-* npm init react-app *project-name* –-template typescript
-* yarn create react-app *project-name* –-template typescript
+* npx create-react-app *project-name* --template typescript
+* npm init react-app *project-name* --template typescript
+* yarn create react-app *project-name* --template typescript
 
-*Example: npx create-react-app my-test-project* –-template typescript
+*Example: npx create-react-app my-test-project* --template typescript
 <br />
 Your React app will be created with Typescript files
