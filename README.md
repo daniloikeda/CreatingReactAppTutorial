@@ -5,7 +5,7 @@
 - React's Documentation
 
 ## Summary
-- [Software install] (#software-install)
+- [Software install](#software-install)
 - [Creating React app](#create-react-app)
 - [Modifying inital files](#tabela-de-conteudo)
 - [Starting app](#instalacao)
