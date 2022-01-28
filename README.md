@@ -6,7 +6,7 @@
 
 # Summary
 - [Software install](#software-install)
-- [Creating React app](#create-react-app)
+  - [Creating React app](#create-react-app)
 - [Modifying inital files](#tabela-de-conteudo)
 - [Starting app](#instalacao)
 - [Folder structure](#como-usar)
@@ -15,7 +15,7 @@
 
 # Software install
 
-#### Node.js
+## Node.js
   Download Node.js (version > 8.10) at https://nodejs.org/en/
   It's not really necessary to have Node.js installed but it will help you since Node has the package manager NPM
 
