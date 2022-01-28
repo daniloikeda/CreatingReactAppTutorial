@@ -5,8 +5,41 @@
 - React's Documentation
 
 ## Summary
-- Creating app using create-react-app
-- Modifying initial files
-- Starting your app
-- Folders structure
-- Deploying on GitHub Pages
+* [Software install] 
+* [Creating React app](#create-react-app)
+* [Modifying inital files](#tabela-de-conteudo)
+* [Starting app](#instalacao)
+* [Folder structure](#como-usar)
+* [Design System](#testes)
+* [Deploying on GitGub Pages](#tecnologias)
+
+### Software install
+
+#### Node.js
+  Download Node.js (version > 8.10) at https://nodejs.org/en/
+  It's not really necessary to have Node.js installed but it will help you since Node has the package manager NPM
+
+#### Code editor
+  This is up to you, I use Visual Studio Code (https://code.visualstudio.com/download) since it doesn't request much of mine computer's processor and it has the possibility to download extensions such as code formatter, snippets, intelisense and many others.
+
+### Creating React app
+  Well not a surprise here, I use the command create-react-app (created by Facebook) which is a very fast way to start you project. It's important to say that you need to have Node.js or any other Package Manager installed in your machine in order to use this command.
+  
+#### Code in JavaScript
+  Open your terminal and then write one of the following commands 
+  * npx create-react-app *project-name*
+  * npm init react-app *project-name*
+  * yarn create react-app *project-name*
+
+  *Example: npx create-react-app my-test-project*
+  </br>
+  Your React app will be created with Javascript files
+#### Code in TypeScript
+  Open your terminal and then write one of the following commands 
+* npx create-react-app *project-name* –-template typescript
+* npm init react-app *project-name* –-template typescript
+* yarn create react-app *project-name* –-template typescript
+
+*Example: npx create-react-app my-test-project* –-template typescript
+<br />
+Your React app will be created with Typescript files
