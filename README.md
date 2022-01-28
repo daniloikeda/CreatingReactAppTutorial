@@ -26,20 +26,27 @@
   Well not a surprise here, I use the command create-react-app (created by Facebook) which is a very fast way to start you project. It's important to say that you need to have Node.js or any other Package Manager installed in your machine in order to use this command.
   
 #### Code in JavaScript
-  Open your terminal and then write one of the following commands 
-  * npx create-react-app *project-name*
-  * npm init react-app *project-name*
-  * yarn create react-app *project-name*
-
-  *Example: npx create-react-app my-test-project*
-  </br>
-  Your React app will be created with Javascript files
+  This command will create Javascript files to your project. Open your terminal and then write one of the following commands 
+```
+npx create-react-app *project-name*
+```
+```
+npm init react-app *project-name*
+```
+```
+yarn create react-app *project-name*
+```
+*Example: npx create-react-app my-test-project*
+  
 #### Code in TypeScript
-  Open your terminal and then write one of the following commands 
-* npx create-react-app *project-name* --template typescript
-* npm init react-app *project-name* --template typescript
-* yarn create react-app *project-name* --template typescript
-
+  This command will create Typescript files to your project. Open your terminal and then write one of the following commands 
+```
+npx create-react-app *project-name* --template typescript
+```
+```
+npm init react-app *project-name* --template typescript
+```
+```
+yarn create react-app *project-name* --template typescript
+```
 *Example: npx create-react-app my-test-project* --template typescript
-<br />
-Your React app will be created with Typescript files
