@@ -6,7 +6,7 @@
 
 # Summary
 - [Software install](#software-install)
-- [Creating React app](#create-react-app)
+- [Creating React app](#creating-react-app)
 - [Modifying inital files](#tabela-de-conteudo)
 - [Starting app](#instalacao)
 - [Folder structure](#como-usar)
