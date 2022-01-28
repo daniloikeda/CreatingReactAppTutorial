@@ -1,10 +1,10 @@
 # Still in progress :sweat_smile:	   
 
-## References
+# References
 - Fullstack react the complete guide to reactjs and friends, Anthony Accomazzo & Nathaniel Murray & Ari Lerner
 - React's Documentation
 
-## Summary
+# Summary
 - [Software install](#software-install)
 - [Creating React app](#create-react-app)
 - [Modifying inital files](#tabela-de-conteudo)
@@ -13,7 +13,7 @@
 - [Design System](#testes)
 - [Deploying on GitGub Pages](#tecnologias)
 
-### Software install
+# Software install
 
 #### Node.js
   Download Node.js (version > 8.10) at https://nodejs.org/en/
