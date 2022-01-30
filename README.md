@@ -51,7 +51,7 @@ yarn create react-app *project-name* --template typescript
 ```
 *Example: npx create-react-app my-test-project* --template typescript
 
-# Modifying Inital Files
+# Modifying Initial Files
 
 ### App.test.js | setupTests.js
 Well we don't really need those files so you can delete them. BUT if you are looking for developing unit tests in your application (which I recommend) those files are important because App.test.js contains an sample of unit test for the component App and you will be able to use it as a model for the other component's unit test files and setupTests.js will import to the whole app the Jest library.
