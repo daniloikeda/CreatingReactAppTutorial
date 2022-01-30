@@ -55,4 +55,5 @@ yarn create react-app *project-name* --template typescript
 
 ### App.test.js | setupTests.js
 Well we don't really need those files so you can delete them. BUT if you are looking for developing unit tests in your application (which I recommend) those files are important because App.test.js contains an sample of unit test for the component App and you will be able to use it as a model for the other component's unit test files and setupTests.js will import to the whole app the Jest library.
+
 Basically the command of creating the app comes with Jest and React Testing Library which are libraries that will identify your application's components and provide unit test functions (React Testing Library) and run your test files and gives you an feedback (Jest).
