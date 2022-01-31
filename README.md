@@ -63,7 +63,7 @@ Basically the command of creating the app, as seen above, comes with Jest and Re
 ### reportWebVitals.js
 Report web vitals is a tool that will measure your app's performance with metrics that focus on user experience, you can check it out the metrics here https://create-react-app.dev/docs/measuring-performance/
 
-# Folder Structure
+# Folder structure
 Well for me folder structure is a concept, it's how you want your project to be organized in a way that when you project grows it will have a bunch of files agrouped by a common characteristic.
 
 I guess the first and most common folder structure is separating components from pages, considering components being a single form for example a button, input text, text area, anyway anything that can only exist on a singular form generally it's a HTML element and the pages are the combination of these components.
@@ -83,5 +83,5 @@ Ok, so what we have so far is a very basic folder structure but your project mig
     │   ├── Hooks
     │   ├── Redux
 
-# Design System
+# Design system
 
