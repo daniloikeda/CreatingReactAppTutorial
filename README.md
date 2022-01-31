@@ -68,20 +68,20 @@ Well for me folder structure is a concept, it's how you want your project to be 
 
 I guess the first and most common folder structure is separating components from pages, considering components being a single form for example a button, input text, text area, anyway anything that can only exist on a singular form generally it's a HTML element and the pages are the combination of these components.
 
-├── src
-│   ├── Components
-│   ├── Pages
+    ├── src
+    │   ├── Components
+    │   ├── Pages
 
 Ok, so what we have so far is a very basic folder structure but your project might have others characteristics, for example it could have API requests, authentications services, auxiliary functions, even might want to create an different folder for styling. Anyway, I highly recommend google the most used folder structure available but I'll leave below a more complete version of mine's:
 
-├── src
-│   ├── Assets
-│   ├── Components
-│   ├── Pages
-│   ├── Services
-│   ├── Helpers
-│   ├── Hooks
-│   ├── Redux
+    ├── src
+    │   ├── Assets
+    │   ├── Components
+    │   ├── Pages
+    │   ├── Services
+    │   ├── Helpers
+    │   ├── Hooks
+    │   ├── Redux
 
 # Design System
 
