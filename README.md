@@ -8,8 +8,7 @@
 - [Software install](#software-install)
 - [Creating React app](#creating-react-app)
 - [Modifying initial files](#modifying-initial-files)
-- [Starting app](#instalacao)
-- [Folder structure](#como-usar)
+- [Folder structure](#folder-structure)
 - [Design System](#testes)
 - [Deploying on GitHub Pages](#tecnologias)
 
@@ -53,10 +52,18 @@ yarn create react-app *project-name* --template typescript
 
 # Modifying initial files
 
-### App.test.js | setupTests.js
-Well we don't really need those files so you can delete them. BUT if you are looking for developing unit tests in your application (which I recommend) those files are important because App.test.js contains an sample of unit test for the component App and you will be able to use it as a model for the other component's unit test files and setupTests.js will import to the whole app the Jest library.
+### App.test.js
+Probably your unit tests will be develop in the other component files, so you can remove this one unless you want to use this as a model for your others unit test files.
 
-Basically the command of creating the app comes with Jest and React Testing Library which are libraries that will identify your application's components and provide unit test functions (React Testing Library) and run your test files and gives you an feedback (Jest).
+### SetupTests.js
+Well we don't really need those files so you can delete them. BUT if you are looking for developing unit tests in your application (which I recommend) this file is important because setupTests.js will import to the whole app the Jest library.
+
+Basically the command of creating the app, as seen above, comes with Jest and React Testing Library which are libraries that will identify your application's components and provide unit test functions (React Testing Library) and run your test files and gives you an feedback (Jest).
 
 ### reportWebVitals.js
-Report web vitals is a tool that will measure your app's performance with metrics that focus on user experience such as 
+Report web vitals is a tool that will measure your app's performance with metrics that focus on user experience, you can check it out the metrics here https://create-react-app.dev/docs/measuring-performance/
+
+# Folder Structure
+Well for me folder structure is a concept, it's how you want your project to be organized in a way that when you project grows it will have a bunch of files agrouped by a common characteristic.
+I guess the first and most common folder structure is separating components from pages, considering components being a single form for example a button, input text, text area, anyway anything that can only exist on a singular form generally it's a HTML element. And the pages would be considered the combination of these components.
+
