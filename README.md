@@ -2,7 +2,7 @@
 
 # References
 - Fullstack react the complete guide to reactjs and friends, Anthony Accomazzo & Nathaniel Murray & Ari Lerner
-- React's Documentation
+- React's documentation
 
 # Summary
 - [Software install](#software-install)
