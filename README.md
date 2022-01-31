@@ -10,7 +10,6 @@
 - [Modifying initial files](#modifying-initial-files)
 - [Folder structure](#folder-structure)
 - [Design System](#design-system)
-- [Deploying on GitHub Pages](#github-pages)
 
 # Software install
 
