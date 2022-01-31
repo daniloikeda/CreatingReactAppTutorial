@@ -9,8 +9,8 @@
 - [Creating React app](#creating-react-app)
 - [Modifying initial files](#modifying-initial-files)
 - [Folder structure](#folder-structure)
-- [Design System](#testes)
-- [Deploying on GitHub Pages](#tecnologias)
+- [Design System](#design-system)
+- [Deploying on GitHub Pages](#github-pages)
 
 # Software install
 
@@ -65,5 +65,23 @@ Report web vitals is a tool that will measure your app's performance with metric
 
 # Folder Structure
 Well for me folder structure is a concept, it's how you want your project to be organized in a way that when you project grows it will have a bunch of files agrouped by a common characteristic.
-I guess the first and most common folder structure is separating components from pages, considering components being a single form for example a button, input text, text area, anyway anything that can only exist on a singular form generally it's a HTML element. And the pages would be considered the combination of these components.
+
+I guess the first and most common folder structure is separating components from pages, considering components being a single form for example a button, input text, text area, anyway anything that can only exist on a singular form generally it's a HTML element and the pages are the combination of these components.
+
+├── src
+│   ├── Components
+│   ├── Pages
+
+Ok, so what we have so far is a very basic folder structure but your project might have others characteristics, for example it could have API requests, authentications services, auxiliary functions, even might want to create an different folder for styling. Anyway, I highly recommend google the most used folder structure available but I'll leave below a more complete version of mine's:
+
+├── src
+│   ├── Assets
+│   ├── Components
+│   ├── Pages
+│   ├── Services
+│   ├── Helpers
+│   ├── Hooks
+│   ├── Redux
+
+# Design System
 
