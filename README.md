@@ -1,8 +1,5 @@
-# Still in progress :sweat_smile:	   
-
-# References
-- Fullstack react the complete guide to reactjs and friends, Anthony Accomazzo & Nathaniel Murray & Ari Lerner
-- React's documentation
+# About
+Hello and welcome! This is a document that I like to follow when creating React App, I tried to write less and be more direct on each topic. I hope this document can help you developing you app.
 
 # Summary
 - [Software install](#software-install)
@@ -86,11 +83,7 @@ Ok, so what we have so far is a very basic folder structure but your project mig
 Well I actually read this from the book "Fullstack react the complete guide to reactjs and friends" and I found it very helpful for me and I think it could help you as well. Below we have the steps taken from the book with a few modifications that we could take in order to create a more robust system.
 
 1. Break the app into pages
-    Personal information, Work references, Work list 
 3. Break the pages into components
-    Personal information: images (profile), texts (name, e-mail, address, phone number), icons (social media)
-    Work reference: texts (company's name, job description, start date, end date)
-    Work list: work reference list
 5. Build a static version of the app
 7. Determine what should be stateful
 8. Determine in which component each piece of state should live
@@ -98,3 +91,8 @@ Well I actually read this from the book "Fullstack react the complete guide to r
 10. Add inverse data flow
 11. Add server communication
 
+Since this is a guide of how to start your project I would recommend to treat this as guide, in other words, don't be too strict to it if it doesn't work on your project. 
+
+# References
+- Fullstack react the complete guide to reactjs and friends, Anthony Accomazzo & Nathaniel Murray & Ari Lerner
+- React's documentation
