@@ -1,7 +1,7 @@
 # About
 Hello and welcome! This is a document that I like to follow when creating React App, I tried to write less and be more direct on each topic. 
 
-Hope this document can help you developing you app :grinning:
+Hope this document can help you developing your app :grinning:
 
 # Summary
 - [Software install](#software-install)
